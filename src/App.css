@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  color: #333;
+}
+
+.entrada-tarefa {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 200px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.lista-tarefas {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.lista-tarefas li {
+  margin: 5px 0;
+  padding: 5px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.lista-tarefas li:hover {
+  background-color: #f0f0f0;
+}
+
+.concluida {
+  text-decoration: line-through;
+}
+
+.botao-remover {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.botao-remover:hover {
+  background-color: #c82333;
+}
